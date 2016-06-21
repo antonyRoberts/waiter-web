@@ -1,4 +1,5 @@
 The only thing I've done here is:
+
   1) Added node-sass to package.json and installed via npm
   
   2) Rename app.component.css to app.component.scss so that is is sass instead of standard css
