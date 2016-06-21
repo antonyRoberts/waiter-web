@@ -11,11 +11,11 @@ const map: any = {
 };
 
 // put the names of any of your Material components here
-const materialPkgs:string[] = [
-  'core',
-  'button',
-  'list',
-];
+//const materialPkgs:string[] = [
+//  'core',
+//  'button',
+//  'list',
+//];
 
 /** User packages configuration. */
 const packages: any = {
@@ -23,6 +23,16 @@ const packages: any = {
     format: 'cjs',
     defaultExtension: 'js',
     main: 'core.js'
+  },
+  '@angular2-material/checkbox': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'checkbox.js'
+  },
+  '@angular2-material/button': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'button.js'
   },
   '@angular2-material/list': {
     format: 'cjs',
@@ -33,9 +43,9 @@ const packages: any = {
 };
 
 
-materialPkgs.forEach((pkg) => {
-  packages[`@angular2-material/${pkg}`] = {main: `${pkg}.js`};
-});
+//materialPkgs.forEach((pkg) => {
+//  packages[`@angular2-material/${pkg}`] = {main: `${pkg}.js`};
+//});
 
 
 
